@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Organisation des fichiers */
+    "rootDir": "./src",
+    "noEmit": true,
+
+    /* Environnement d'exécution */
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+
+    /* Rigueur du typage */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true
+  },
+  "include": ["src/**/*"]
+}
